@@ -1,0 +1,5 @@
+{
+  "name": "Cypress Selector Generator",
+  "description": "An AI-powered developer tool that generates stable Cypress selectors and test code from HTML snippets and natural language descriptions.",
+  "requestFramePermissions": []
+}
