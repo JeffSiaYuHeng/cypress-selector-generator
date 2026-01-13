@@ -51,7 +51,7 @@ export const generateSelector = async (html: string, description: string, apiKey
     `;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-2.0-flash', // Updated to latest flash model as per current standards
+      model: 'gemini-2.5-flash', // Updated to latest flash model as per current standards
       contents: prompt,
       config: {
         systemInstruction: getSystemInstruction(),
